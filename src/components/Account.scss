@@ -1,0 +1,14 @@
+.Account{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  img{
+    max-width: 225px;
+    margin-right: 15px;
+  }
+  input{
+    height: 75px;
+    flex: 1;
+  }
+}

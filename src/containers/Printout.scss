@@ -1,0 +1,46 @@
+.Printout{
+  display: grid;
+  height:297mm;
+  width:210mm;
+  grid-template-columns: 12.5% auto 12.5%;
+  grid-template-rows: 30mm 1fr 1fr 30mm;
+  grid-gap: 2px;
+
+  .section{
+    background-color: #ffffff;
+    border: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Accounts{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    .accountLinksContainer{
+      height: 100%;
+      display: grid;
+      justify-content: center;
+    }
+  }
+  .Instructions{
+    height: 100%;
+    width: 100%;
+  }
+
+  .left{
+    grid-column-start: 3;
+    grid-row: 1 / span 4;
+  }
+  .right{
+    grid-row: 1 / span 4;
+  }
+  .flip{
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+  }
+}
