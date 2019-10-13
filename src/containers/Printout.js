@@ -12,8 +12,9 @@ const Printout = ({ accounts }) => {
       <div className="f3 section flip">
         bottom
       </div>
-      <div className="Instructions section">
-        <h1>Instructions</h1>
+      <div className="Instructions section flip">
+        <img src="images/instructions.png" />
+        <p>Print your own at: https://miles-au.github.io/show_my_socials/</p>
       </div>
       <div className="Accounts section pa4">
         <p className="f3" >Follow and Review Us!</p>

@@ -17,7 +17,7 @@ const Accounts = ({ onLinkChange, onSubmit }) => {
                 );
               })
             }
-            <input type="submit" value="Print it out!" className="mt3 b ph5 pv3 input-reset navy grow pointer f3 dib" />
+            <input type="submit" value="Print it out!" className="btn-action mt3 b ph5 pv3 input-reset navy grow pointer f3 dib" />
           </form>
         </div>
       </div>

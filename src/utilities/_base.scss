@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poller+One&display=swap');
+
+.btn-action{
+  background-color: $text;
+  font-family: 'Poller One', cursive;
+}
+
+@media print{
+   .noprint{
+       display: none !important;
+   }
+}

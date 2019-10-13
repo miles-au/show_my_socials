@@ -32,9 +32,20 @@ class App extends React.Component {
     this.setState({ printing: true});
   }
 
+  goBack = () => {
+    this.setState({printing:false});
+  }
+
   render() {
     if(this.state.printing){
-      return <Printout accounts={this.state}/>
+      return(
+        <div className="whiteBack">
+          <div className="ma2 noprint btn-action mt3 b ph5 pv3 input-reset navy grow pointer f3 dib" onClick={this.goBack} >
+            back
+          </div>
+          <Printout accounts={this.state}/>
+        </div>
+      )
     }
     return(
       <div className="App">
