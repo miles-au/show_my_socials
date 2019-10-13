@@ -4,3 +4,12 @@
 input[type=submit]{
   border: none;
 }
+
+.reminders{
+  text-align: center;
+  ul{
+    margin: 0px;
+    display: inline-block;
+    text-align: left;
+  }
+}

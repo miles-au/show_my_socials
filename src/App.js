@@ -50,7 +50,7 @@ class App extends React.Component {
     return(
       <div className="App">
         <h1 className="f1 headline">Show My Socials</h1>
-        <h2 className="dark-gray">Free printout to display your social media accounts</h2>
+        <h2 className="dark-gray">Tabletop social media printout</h2>
         <div className="ma3 bg-white ba b--light-gray br4 mw5 mw7-ns center pa3 ph5-ns">
           <Accounts onLinkChange={this.onLinkChange} onSubmit={this.handleSubmit} />
         </div>

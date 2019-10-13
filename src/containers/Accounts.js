@@ -17,7 +17,14 @@ const Accounts = ({ onLinkChange, onSubmit }) => {
                 );
               })
             }
-            <input type="submit" value="Print it out!" className="btn-action mt3 b ph5 pv3 input-reset navy grow pointer f3 dib" />
+            <div className="reminders">
+              <h4>When you print: </h4>
+              <ul>
+                <li>Set size to A4(297mm x 210mm)</li>
+                <li>Turn off headers and footers</li>
+              </ul>
+            </div>
+            <input type="submit" value="Print it out!" className="btn-action mt3 b ph3 pv3 input-reset navy grow pointer f4 dib" />
           </form>
         </div>
       </div>
