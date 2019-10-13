@@ -2,7 +2,7 @@ import React from 'react'
 import './PrintAccount.scss'
 
 const PrintAccount = ({ platform, accountLink }) => {
-  if(accountLink == ""){
+  if(accountLink === ""){
     return null
   }
   return(

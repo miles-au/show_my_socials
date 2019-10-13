@@ -1,0 +1,8 @@
+@import '../utilities/variables';
+@import '../utilities/base';
+
+input[type=submit]{
+  border: none;
+  background-color: $text;
+  font-family: 'Poller One', cursive;
+}
